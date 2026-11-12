@@ -1,0 +1,16 @@
+DEPLOY ONLINE — QUICK START
+
+1) Create a PRIVATE repository on GitHub.
+2) Upload every file in this folder to that repository.
+3) In Render, choose New -> Blueprint.
+4) Connect the GitHub repository and deploy render.yaml.
+5) Set APP_PASSWORD when prompted. Choose a strong password and keep it private.
+6) Open the Render URL and sign in.
+
+The included Render blueprint mounts a persistent disk for the paper-trade
+database. Render hosting and disk may have a monthly cost; check current pricing.
+
+iPhone: open the URL in Safari -> Share -> Add to Home Screen.
+Android: open the URL in Chrome -> menu -> Add to Home screen / Install app.
+
+Do not commit passwords, SMTP credentials, or the SQLite database to GitHub.

@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: btc-15m-signal-desk
+    runtime: docker
+    plan: starter
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    healthCheckPath: /_stcore/health
+    disk:
+      name: btc-signal-data
+      mountPath: /var/data
+      sizeGB: 1
+    envVars:
+      - key: APP_PASSWORD
+        sync: false
+      - key: DB_PATH
+        value: /var/data/bot_data.sqlite3

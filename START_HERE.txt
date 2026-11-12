@@ -1,0 +1,7 @@
+BTC 15-minute Signal Desk — Any-device edition
+
+For the online version, read DEPLOY_ONLINE.txt first.
+For local Mac use, double-click run_mac.command.
+
+The online version requires a private GitHub repository and a Render deployment.
+Set APP_PASSWORD in Render before sharing the app URL.
